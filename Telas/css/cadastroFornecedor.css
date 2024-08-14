@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Smooch+Sans:wght@100..900&display=swap");
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100dvh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #d9d9d9;
+}
+
+.caixa__main {
+  width: 650px;
+  height: 500px;
+  border-radius: 70px;
+  border: 1px #77176E;
+  background: #fff;
+  position: relative;
+}
+
+.topo__main {
+  width: 100%;
+  height: 70px;
+
+  background-color: #47003C;
+  border-radius: 70px 70px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.imgIcon {
+  margin-left: 30px;
+}
+
+.texto__topo {
+  font-family: "Poppins", sans-serif;
+  color: #eccd24;
+  font-weight: 400;
+}
+
+.inputs {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  top: 2%;
+  left: 5%;
+}
+
+.inputs input {
+  border-radius: 19px;
+  background: #d9d9d9;
+  border: none;
+  padding: 1em;
+  width: 50%;
+}
+
+.fundo {
+  width: 100%;
+  height: 100vh;
+}
+
+.botao {
+  width: 200px;
+  height: 200px;
+
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.cancelar {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background: #77176E;
+  border: none;
+  color: #eccd24;
+  font-family: "Poppins", sans-serif;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cadastrar{
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background: #77176E;
+  border: none;
+  color: #eccd24;
+  font-family: "Poppins", sans-serif;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.caixa__foto{
+  width: 200px;
+  height: 200px;
+  background-color: #77176E;
+  border-radius: 30px;
+  position: fixed;
+
+  top: 30%;
+  right: 32%;
+}

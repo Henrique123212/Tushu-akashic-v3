@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/cadastroFuncionario.css" />
+    <title>Cadastro Funcionario</title>
+  </head>
+  <body>
+    <main class="caixa__main">
+      <header class="topo__main">
+        <img src="/imgs/toshu__menu.png" class="imgIcon" />
+        <h1 class="texto__topo">Cadastro Funcionario</h1>
+      </header>
+
+      <form class="fundo">
+      <div class="inputs">
+        <input type="text" placeholder="Nome" class="nome" />
+        <input type="text" placeholder="Sobrenome" class="sobrenome" />
+        <input type="text" name="dataNascimento" class="data__nascimento" placeholder="Data de Nascimento" onfocus="(this.type='date')" onblur="(this.type='text')"/>
+        <input type="text" name="dataAdmissao" class="data__admissao" placeholder="Data de Admissão" onfocus="(this.type='date')" onblur="(this.type='text')"/>
+        <input type="number" name="salario" class="salario" placeholder="Salário"/>
+        <input type="text" placeholder="Cargo" class="cargo" />
+        <input type="password" name="sehna" class="senha" placeholder="Senha"/>
+        <input type="password" name="comfirma" class="confirSenha" placeholder="Confirmar Senha" />
+      </div>
+
+      <div class="caixa__foto"></div>
+
+      <div class="botao">
+        <button class="cancelar">Cancelar</button>
+        <input type="submit" value="Cadastrar" class="cadastrar">
+      </div>
+    </form>
+    </main>
+  </body>
+</html>
